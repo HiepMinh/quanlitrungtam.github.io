@@ -1,0 +1,24 @@
+$main-color:#1641b5;
+//helpers
+@import "helpers/variables";
+@import "helpers/mixin";
+@import "helpers/placeholder";
+//base
+@import "base/normalize";
+@import "base/reset";
+@import "base/typography";
+//component
+@import "component/position";
+@import "component/sight";
+@import "component/button";
+@import "component/heading";
+@import "component/card";
+@import "component/icon";
+//layout
+@import "layout_index/khoaHoc";
+@import "layout_index/form";
+@import "layout_user/navbar";
+@import "layout_index/footer";
+@import "layout_user/slider";
+@import "layout_user/modalSuaNguoiDung";
+@import "layout_khoahoc/custom-listKhoaHoc"

@@ -1,0 +1,36 @@
+.header{
+    height: 60px;
+    border-bottom: 3px solid $amber-color;
+    background: #fff;
+    &__content{
+        height: 100%;
+    }
+    &__right{
+        .fa{
+            color: #529ea5;
+            font-size: 20px;
+            position: relative;
+            cursor: pointer;
+            margin-right: 30px;
+            .badge{
+                @include posi-top-right(absolute, -13px, -9px);
+            }
+        }
+        .divAdmin{
+            margin-left: 10px;
+            #adminName{
+                font-size: 1.2rem;
+                font-family: monts-thin;
+                color: #000;
+            }
+            .avatar{
+                margin-left: 10px;
+                img{
+                    width: 37px;
+                }
+            }
+        }
+    }
+}
+
+
